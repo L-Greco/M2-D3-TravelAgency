@@ -6,6 +6,10 @@
   padding-top: 0;
   padding-bottom: 0;
 }
+.navbar {
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+}
 
 .jumbotron {
   background: rgb(22, 22, 212);
@@ -16,8 +20,26 @@
     rgba(230, 221, 221, 1) 100%
   );
 }
+.cardcolor {
+  border-radius: 72px;
+  background: #514fcf;
+  box-shadow: inset 24px 24px 49px #3d3b9b, inset -24px -24px 49px #6563ff;
+}
 
 .jumbotron p {
   font-size: 20px;
   color: azure;
+}
+body {
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+}
+.jumbobut {
+  border-radius: 72px;
+  background: #514fcf;
+  box-shadow: inset 24px 24px 49px #3d3b9b, inset -24px -24px 49px #6563ff;
+}
+.gigantic {
+  max-height: 66%;
+  max-width: 66%;
 }
